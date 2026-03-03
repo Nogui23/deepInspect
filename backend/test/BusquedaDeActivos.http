@@ -1,0 +1,5 @@
+GET http://localhost:5000/whois/getAll HTTP/1.1
+###
+
+GET http://localhost:5000/whois/get/1 HTTP/1.1
+###

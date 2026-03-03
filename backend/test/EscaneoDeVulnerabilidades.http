@@ -1,0 +1,13 @@
+GET http://localhost:5000/nmap/getPorts HTTP/1.1
+###
+
+GET http://localhost:5000/nmap/getPort/1 HTTP/1.1
+###
+
+GET http://localhost:5000/vulnerabilities/export-csv/1 HTTP/1.1
+###
+
+POST http://localhost:5000/nmap/searchPorts HTTP/1.1
+Content-Type: application/json
+
+###

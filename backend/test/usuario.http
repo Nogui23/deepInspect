@@ -1,0 +1,23 @@
+GET http://localhost:5000/usuarios HTTP/1.1
+###
+
+POST http://localhost:5000/usuarios/crear HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "Nogui23",
+    "email": "asiernogues@live.u-tad.com",
+    "password": "password123"
+}
+###
+
+POST http://localhost:5000/usuarios/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "asiernogues@live.u-tad.com",
+    "password": "password123"
+}
+###
+POST http://localhost:5000/usuarios/logout HTTP/1.1
+Content-Type: application/json
